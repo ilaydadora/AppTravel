@@ -21,6 +21,8 @@ AppTravel for FMSS
 
 ✅Web Services
 
+✅API
+
 ✅CollectionView and TableView
 
 ✅Search Bar
@@ -30,6 +32,8 @@ AppTravel for FMSS
 ✅Navigation
 
 ✅Tabbar Navigation
+
+✅UI/UX
 
 
 https://user-images.githubusercontent.com/100840400/194984792-ff7bbd2b-339f-4fc7-9bb9-4246ec48ebe1.mp4
