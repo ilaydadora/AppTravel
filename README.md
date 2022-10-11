@@ -1,7 +1,7 @@
 ## AppTravel
 AppTravel for FMSS
 
-Project Description
+## Project Description
 Hotel,HotelDetails,FlightDetails,Flights verilerini apiden çekiyoruz.
 Hotel ve Flights verileri Bookmarks sayfasına kaydoluyor.
 Bookmarks sayfasına kaydedilen veriler Search sayfama aktarılıyor.
@@ -10,7 +10,7 @@ Otelin ilk 3 harfini yazdığımda önüme aradığım otel ve uçuş bilgileri 
 Search sayfamda farklı bir kelime girildiğinde arama yapılmıyor.
 Home collection view bilgileri api ile çekilmiş veriler değiller. 
 
-Technology and Structures
+## Technology and Structures
 MVVM Pattern
 Web Services
 CollectionView and TableView
