@@ -3,11 +3,17 @@ AppTravel for FMSS
 
 ## Project Description
 Hotel,HotelDetails,FlightDetails,Flights verilerini apiden çekiyoruz.
+
 Hotel ve Flights verileri Bookmarks sayfasına kaydoluyor.
+
 Bookmarks sayfasına kaydedilen veriler Search sayfama aktarılıyor.
+
 Search sayfamda 3 harften az harf kullanarak arama yaparsam boş sayfa çıkıyor.
+
 Otelin ilk 3 harfini yazdığımda önüme aradığım otel ve uçuş bilgileri geliyor.
+
 Search sayfamda farklı bir kelime girildiğinde arama yapılmıyor.
+
 Home collection view bilgileri api ile çekilmiş veriler değiller. 
 
 ## Technology and Structures
