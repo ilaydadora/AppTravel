@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="flightsCell" rowHeight="153" id="KGk-i7-Jjw" customClass="FlightsTableViewCell" customModule="TravelApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="358" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="358" height="153"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NkM-4b-XXQ">
+                        <rect key="frame" x="0.0" y="0.0" width="358" height="153"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flightsimage1" translatesAutoresizingMaskIntoConstraints="NO" id="eXD-K9-kri">
+                                <rect key="frame" x="0.0" y="0.0" width="358" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="5af-5i-1Lf"/>
+                                    <constraint firstAttribute="width" constant="358" id="bGB-B6-qAi"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flight Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGe-M6-SkG">
+                                <rect key="frame" x="8" y="31" width="338" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoP-Mp-fuX">
+                                <rect key="frame" x="11" y="70" width="337" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H2e-W4-bFw">
+                                <rect key="frame" x="115" y="101" width="129" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="358" id="3oR-yc-3go"/>
+                            <constraint firstAttribute="height" constant="153" id="C5l-FW-gQH"/>
+                            <constraint firstAttribute="trailing" secondItem="hoP-Mp-fuX" secondAttribute="trailing" constant="10" id="CJ6-lk-Ttd"/>
+                            <constraint firstItem="AGe-M6-SkG" firstAttribute="top" secondItem="NkM-4b-XXQ" secondAttribute="top" constant="31" id="Fx7-zN-4Iq"/>
+                            <constraint firstAttribute="bottom" secondItem="eXD-K9-kri" secondAttribute="bottom" id="JaQ-FB-kL1"/>
+                            <constraint firstItem="hoP-Mp-fuX" firstAttribute="top" secondItem="AGe-M6-SkG" secondAttribute="bottom" constant="9" id="OIb-Pp-e5G"/>
+                            <constraint firstAttribute="trailing" secondItem="eXD-K9-kri" secondAttribute="trailing" id="Pw6-Hn-xrZ"/>
+                            <constraint firstItem="AGe-M6-SkG" firstAttribute="leading" secondItem="NkM-4b-XXQ" secondAttribute="leading" constant="8" id="Qu1-dx-gBU"/>
+                            <constraint firstItem="H2e-W4-bFw" firstAttribute="top" secondItem="hoP-Mp-fuX" secondAttribute="bottom" constant="9.5" id="hrU-FD-6sg"/>
+                            <constraint firstAttribute="trailing" secondItem="AGe-M6-SkG" secondAttribute="trailing" constant="12" id="iD2-Ki-A7b"/>
+                            <constraint firstItem="eXD-K9-kri" firstAttribute="leading" secondItem="NkM-4b-XXQ" secondAttribute="leading" id="jaQ-tC-g1f"/>
+                            <constraint firstItem="eXD-K9-kri" firstAttribute="top" secondItem="NkM-4b-XXQ" secondAttribute="top" id="lLb-01-caT"/>
+                            <constraint firstItem="H2e-W4-bFw" firstAttribute="leading" secondItem="NkM-4b-XXQ" secondAttribute="leading" constant="115" id="nP7-yf-f92"/>
+                            <constraint firstItem="hoP-Mp-fuX" firstAttribute="leading" secondItem="NkM-4b-XXQ" secondAttribute="leading" constant="11" id="phd-by-cI5"/>
+                            <constraint firstAttribute="trailing" secondItem="H2e-W4-bFw" secondAttribute="trailing" constant="114" id="qSg-60-jti"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="NkM-4b-XXQ" secondAttribute="bottom" id="MYe-Aq-uW1"/>
+                    <constraint firstItem="NkM-4b-XXQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="p3S-5C-gNE"/>
+                    <constraint firstItem="NkM-4b-XXQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ujR-jr-L7u"/>
+                    <constraint firstAttribute="trailing" secondItem="NkM-4b-XXQ" secondAttribute="trailing" id="yxs-zo-hWj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="flightsDesc" destination="hoP-Mp-fuX" id="U6x-Av-fCf"/>
+                <outlet property="flightsImage" destination="eXD-K9-kri" id="YHO-pi-4XT"/>
+                <outlet property="flightsName" destination="AGe-M6-SkG" id="Hdc-vZ-xT1"/>
+                <outlet property="flightsNumber" destination="H2e-W4-bFw" id="fp0-kk-wgk"/>
+                <outlet property="flightsView" destination="NkM-4b-XXQ" id="NRR-8l-wtz"/>
+            </connections>
+            <point key="canvasLocation" x="165.21739130434784" y="124.88839285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="flightsimage1" width="388" height="185"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
